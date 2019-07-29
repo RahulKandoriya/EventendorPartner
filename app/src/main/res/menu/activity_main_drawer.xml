@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/leadsFragment"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/cutomer_leads" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/edit_profile" />
+        <item
+            android:id="@+id/reviewsFragment"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/reviews" />
+    </group>
+
+    <item android:title="@string/other_text">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="@string/rate"/>
+        </menu>
+    </item>
+
+</menu>
